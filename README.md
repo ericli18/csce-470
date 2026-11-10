@@ -1,4 +1,4 @@
-# csce-470: Paper Alerts
+# Alertr
 
 Our project sends people alerts about new research on a question they care about.
 You type something in plain English like "effects of creatine on human bodies", and
