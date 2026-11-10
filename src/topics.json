@@ -1,0 +1,104 @@
+[
+ {
+  "id": "t01",
+  "audience": "lay",
+  "query": "heart attack in women",
+  "narrative": "Relevant: studies of heart attack (myocardial infarction or acute coronary syndrome) that focus on women or report sex differences in symptoms, diagnosis, treatment or outcomes. Not relevant: heart attack studies that only adjust for sex as a covariate."
+ },
+ {
+  "id": "t02",
+  "audience": "lay",
+  "query": "effects of creatine on human bodies",
+  "narrative": "Relevant: studies of creatine supplementation in people and its effects on any outcome (muscle, exercise performance, cognition, kidney function, aging). Not relevant: creatine kinase used as a lab marker of muscle damage, creatinine as a kidney function test, or animal-only studies."
+ },
+ {
+  "id": "t03",
+  "audience": "lay",
+  "query": "lowering high blood pressure without medication",
+  "narrative": "Relevant: studies of non-drug ways to lower blood pressure in people with hypertension, such as diet, salt reduction, exercise, weight loss, sleep or stress reduction. Not relevant: trials of blood pressure drugs, or hypertension studies with no intervention."
+ },
+ {
+  "id": "t04",
+  "audience": "lay",
+  "query": "intermittent fasting for weight loss",
+  "narrative": "Relevant: human studies of intermittent fasting, time-restricted eating or alternate-day fasting that report weight, body composition or metabolic outcomes. Not relevant: fasting before surgery or lab tests, or religious fasting studies with no weight or metabolic outcome."
+ },
+ {
+  "id": "t05",
+  "audience": "lay",
+  "query": "does melatonin help you sleep",
+  "narrative": "Relevant: human studies of melatonin (supplements or melatonin-receptor drugs) for falling asleep, sleep quality, insomnia or jet lag. Not relevant: melatonin as a biomarker, or melatonin studied for cancer, inflammation or other non-sleep effects."
+ },
+ {
+  "id": "t06",
+  "audience": "lay",
+  "query": "ozempic side effects",
+  "narrative": "Relevant: studies reporting adverse effects, safety or tolerability of semaglutide or other GLP-1 receptor agonists (e.g. nausea, pancreatitis, gastroparesis, muscle loss). Not relevant: studies that only report effectiveness for weight or blood sugar."
+ },
+ {
+  "id": "t07",
+  "audience": "lay",
+  "query": "how to prevent kidney stones",
+  "narrative": "Relevant: studies of preventing kidney or urinary stones from forming or coming back, through diet, fluid intake, medication or risk factor management. Not relevant: surgical or procedural techniques for removing stones."
+ },
+ {
+  "id": "t08",
+  "audience": "lay",
+  "query": "long covid brain fog",
+  "narrative": "Relevant: studies of lasting cognitive problems after COVID-19 (memory, concentration, mental fatigue), including causes, prevalence and treatment. Not relevant: acute neurological complications during infection, or long COVID studies with no cognitive outcome."
+ },
+ {
+  "id": "t09",
+  "audience": "lay",
+  "query": "screen time and kids mental health",
+  "narrative": "Relevant: studies linking screen use, social media or digital device use in children or adolescents to depression, anxiety, sleep, attention or wellbeing. Not relevant: studies of adults only, or screening programs (the word 'screen' in the medical-test sense)."
+ },
+ {
+  "id": "t10",
+  "audience": "lay",
+  "query": "vitamin d and depression",
+  "narrative": "Relevant: studies of vitamin D levels or vitamin D supplementation and depressive symptoms or depressive disorders. Not relevant: vitamin D studies with no mood outcome."
+ },
+ {
+  "id": "t11",
+  "audience": "lay",
+  "query": "treatment for ringing in the ears",
+  "narrative": "Relevant: studies of treating or managing tinnitus (sound therapy, CBT, devices, drugs, neuromodulation). Not relevant: tinnitus listed only as a side effect, or hearing loss studies that do not address tinnitus."
+ },
+ {
+  "id": "t12",
+  "audience": "lay",
+  "query": "bedwetting in kids",
+  "narrative": "Relevant: studies of nighttime bedwetting (nocturnal enuresis) in children, including causes, alarms, desmopressin or other treatments. Not relevant: adult urinary incontinence."
+ },
+ {
+  "id": "t13",
+  "audience": "lay",
+  "query": "how well does the shingles vaccine work",
+  "narrative": "Relevant: studies of herpes zoster vaccine effectiveness, immune response, duration of protection or safety. Not relevant: shingles treatment, or chickenpox (varicella) vaccine studies in children."
+ },
+ {
+  "id": "t14",
+  "audience": "lay",
+  "query": "gum disease and heart disease",
+  "narrative": "Relevant: studies of the link between periodontal disease and cardiovascular disease, including whether treating gum disease affects heart outcomes. Not relevant: gum disease studies with no cardiovascular angle."
+ },
+ {
+  "id": "t15",
+  "audience": "lay",
+  "query": "peptides for injury recovery",
+  "narrative": "Relevant: studies of therapeutic peptides such as BPC-157, TB-500 or thymosin beta-4, or collagen peptides, for healing tendons, ligaments, muscle or other injuries. Not relevant: antimicrobial peptides, peptide hormones like insulin, or peptides used only as biomarkers."
+ },
+ {
+  "id": "t16",
+  "audience": "researcher",
+  "query": "SGLT2 inhibitors in heart failure with preserved ejection fraction",
+  "narrative": "Relevant: clinical or mechanistic studies of SGLT2 inhibitors (e.g. empagliflozin, dapagliflozin) in HFpEF. Not relevant: SGLT2 inhibitor studies in diabetes or reduced ejection fraction only."
+ },
+ {
+  "id": "t17",
+  "audience": "researcher",
+  "query": "neurotoxicity after CAR-T cell therapy",
+  "narrative": "Relevant: studies of immune effector cell-associated neurotoxicity syndrome (ICANS) or other neurological toxicity after CAR-T therapy, including incidence, mechanisms, prediction and management. Not relevant: CAR-T efficacy studies that do not report neurotoxicity."
+ }
+]
