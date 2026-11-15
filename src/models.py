@@ -24,4 +24,19 @@ class Document(BaseModel):
     abstract: str  # "" when missing
     date: datetime.date
     mesh: list[MeshHeading]
-    meta: dict 
+    meta: dict
+
+
+class Result(BaseModel):
+    pmid: str
+    title: str
+    date: datetime.date
+    score: float
+    pub_types: list[str]
+    url: str
+
+
+class SearchResponse(BaseModel):
+    query: str
+    total: int  # matches after the date filter, before the limit
+    results: list[Result]
