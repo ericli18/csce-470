@@ -13,15 +13,13 @@ uv sync                                           # install dependencies
 
 ## Run the tests
 
-No data download needed.
-
 ```sh
 uv run pytest
 ```
 
 ## Get the data
 
-The data isn't in the repo (it's a few hundred MB).
+The data isn't in the repo (it's a few hundred MB) Either run the scripts below or ask Eric for the files.
 
 ```sh
 cd src

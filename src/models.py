@@ -1,6 +1,6 @@
 import datetime
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class RawQuery(BaseModel):
@@ -40,3 +40,13 @@ class SearchResponse(BaseModel):
     query: str
     total: int  # matches after the date filter, before the limit
     results: list[Result]
+
+
+class AlertCreate(BaseModel):
+    query: str = Field(min_length=1)
+
+
+class Alert(BaseModel):
+    id: int
+    query: str
+    created_at: datetime.datetime
