@@ -41,6 +41,18 @@ Startup takes about 10 seconds. API docs are at http://127.0.0.1:8000/docs.
 curl 'http://127.0.0.1:8000/search?q=effects+of+creatine+on+human+bodies&limit=5'
 ```
 
+## Run the frontend
+
+You need Node 20+. Start the API first (see above), then in another terminal:
+
+```sh
+cd frontend
+npm install
+npm run dev
+```
+
+Open http://localhost:5173. In dev, Vite forwards `/api/*` to the API at http://127.0.0.1:8000.
+
 ## Run the evaluation
 
 ```sh
