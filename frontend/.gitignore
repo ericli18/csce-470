@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# The root (Python) .gitignore ignores lib/; shadcn keeps utils here.
+!src/lib/
